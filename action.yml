@@ -1,5 +1,8 @@
 name: 'Hash String'
 description: 'Hash a string with a salt using HMAC-SHA256, returns hex output'
+branding:
+  icon: 'box'
+  color: 'green'
 inputs:
   value:
     description: 'The string to hash'
