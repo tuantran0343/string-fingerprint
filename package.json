@@ -1,0 +1,12 @@
+{
+  "name": "hash-string",
+  "version": "1.0.0",
+  "description": "GitHub Action: HMAC-SHA256 hash a string with a salt",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test hash.test.js"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.0"
+  }
+}

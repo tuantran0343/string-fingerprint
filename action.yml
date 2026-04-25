@@ -1,0 +1,15 @@
+name: 'Hash String'
+description: 'Hash a string with a salt using HMAC-SHA256, returns hex output'
+inputs:
+  value:
+    description: 'The string to hash'
+    required: true
+  salty:
+    description: 'Salt used as HMAC secret key'
+    required: true
+outputs:
+  hashed:
+    description: 'Hex-encoded HMAC-SHA256 result'
+runs:
+  using: 'node20'
+  main: 'index.js'
