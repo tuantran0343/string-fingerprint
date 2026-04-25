@@ -14,5 +14,5 @@ outputs:
   hashed:
     description: 'Hex-encoded HMAC-SHA256 result'
 runs:
-  using: 'node20'
+  using: 'node24'
   main: 'dist/index.js'
